@@ -1,0 +1,96 @@
+.container-logo img {
+    width: 100%;
+}
+.container-logo {
+    float: left;
+    width: 150px;
+}
+header > div {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.main-navbar {
+    background: white !important;
+    padding-top: 15px;
+}
+
+.main-navbar button {
+    color: black;
+}
+
+ul.navbar-list {
+    list-style: none;
+    display: flex;
+}
+
+.main-navbar > div {
+    border-bottom: 1px solid #c4c4c4;
+    padding-bottom: 15px;
+}
+
+.container-logo + div {
+    display: flex;
+    align-items: center;
+}
+
+.cart-buttonNav {
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+.navbar-scroll > div {position: relative;}
+
+.navbar-scroll .container-search-form {
+    display: none;
+}
+
+.navbar-scroll nav.bottom-navbar {
+    z-index: 1;
+    margin-top: -68px;
+    display: flex;
+    justify-content: end;
+    width: calc(100% - 100px);
+}
+
+nav.bottom-navbar {
+    transition: all 0.3s ease;
+}
+
+.main-navbar.navbar-scroll > div {
+    border: none;
+}
+.navbar-scroll > div {position: relative;}
+
+.navbar-scroll .container-search-form {
+    display: none;
+}
+.MuiAppBar-positionFixed ul.navbar-list {
+    margin-top: 10px;
+}
+
+.navbar-scroll nav.bottom-navbar {
+    z-index: 1;
+    margin-top: -68px;
+    display: flex;
+    justify-content: end;
+    width: calc(100% - 100px);
+}
+
+nav.bottom-navbar {
+    transition: all 0.3s ease;
+}
+
+.main-navbar.navbar-scroll > div {
+    border: none;
+}
+
+ul.navbar-list a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.MuiMenu-list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}

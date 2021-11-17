@@ -1,0 +1,23 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+.button-product {
+    padding: 20px 25px;
+}
+.detail-container {
+    width: 1280px !important;
+    padding: 0px 25px;
+    box-sizing: border-box !important;
+    margin: 0 auto;
+    display: block !important;
+}
+
+.theme-dark * {
+    color: white !important;
+    border-color: white;
+}
+
+.theme-dark {
+    background: black !important;
+}

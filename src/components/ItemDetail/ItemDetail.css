@@ -1,0 +1,53 @@
+.image-detail-container {
+    display: flex;
+}
+
+.image-detail-container img {
+    width: 100%;
+}
+
+.image-detail-container img {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.info-detail-container h2 {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.info-detail-container p.info-price {
+    font-family: 'Roboto';
+    font-size: 32px;
+    margin: 0px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.info-details-payment-button:hover {
+    background: black !important;
+}
+
+.info-details-payment-button {
+    background: #2c3e50 !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    margin-top: 25px !important;
+}
+
+p.payments-style.info-installments {
+    font-size: 15px;
+    font-family: 'Roboto';
+}
+
+p.payments-style.info-installments > span {
+    color: #e74c3c;
+}
+
+p.payments-style.info-installments > span svg {
+    margin-bottom: -9px;
+    margin-right: 8px;
+}

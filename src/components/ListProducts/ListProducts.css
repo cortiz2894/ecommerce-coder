@@ -1,0 +1,13 @@
+.container-general {
+    width: 1280px;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: block;
+}
+
+@media(max-width: 1290px) {
+    .container-general {
+        width: 100%;
+    }
+}
